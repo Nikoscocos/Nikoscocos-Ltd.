@@ -1,0 +1,187 @@
+body {
+    background-color: black;
+    padding: 30px 15px 15px 15px;
+    color: white;
+    width: 60%;
+    margin: auto;
+    user-select: none;
+}
+h1 {
+    font-weight: 800;
+}
+.nav {
+    background-color: black;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.822);
+    position: sticky;
+    top: 0;
+    padding: 5px 0px 5px 10px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.block {
+    background-color: rgb(56, 119, 155);
+    border-radius: 15px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: calc(50% - 15px);
+}
+.block1 {
+    background-color: rgb(103, 42, 201);
+    border-radius: 15px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: calc(50% - 15px);
+    margin-left: 10px;
+}
+.block2 {
+    background-color: rgb(51, 126, 119);
+    border-radius: 15px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: calc(50% - 15px);
+}
+.block3 {
+    background-color: rgb(155, 110, 27);
+    border-radius: 15px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 10px;
+    width: calc(50% - 15px);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.block4 {
+    background-image: url(../images/nikitOS.jpg);
+    background-size: 100% auto;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: calc(50% - 15px);
+}
+.block5 {
+    background-image: url(../images/neuronbot.jpg);
+    background-size: 100% auto;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 10px;
+    width: calc(50% - 15px);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.block6 {
+    background-image: url(../images/catware.jpg);
+    background-size: 100% auto;
+    border-radius: 15px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid rgba(51, 51, 51, 0.822);
+}
+.block7 {
+    background-color: rgb(0, 22, 12);
+    border-radius: 15px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 8px;
+    border: 1px solid rgba(51, 51, 51, 0.822);
+}
+.block8 {
+    background-image: url(../images/contacts.jpg);
+    background-size: 100% auto;
+    border-radius: 15px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid rgba(51, 51, 51, 0.822);
+}
+.block9 {
+    background-color: rgb(55, 97, 93);
+    border-radius: 15px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+.hnoblur {
+    padding: 15px;
+    border-radius: 15px;
+    backdrop-filter: blur(1.3rem);
+}
+hr {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+h2 {
+    font-weight: 800;
+}
+.uzk {
+    line-height: 20px;
+}
+button {
+    outline: none !important;
+}
+.srv {
+    margin-top: 5px;
+    transition: 0.2s;
+    border-radius: 10px;
+    background-color: rgba(48, 48, 48, 0.288);
+    padding: 5px 10px 5px 10px;
+    color: white;
+    border: 1px solid rgba(51, 51, 51, 0.822);
+}
+.srv:hover {
+    background-color: rgba(85, 85, 85, 0.288);
+}
+.srv:active {
+    background-color: rgba(122, 122, 122, 0.288);
+}
+.pc {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+@media screen and (max-width: 900px) {
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    body {
+        width: 90%;
+    }
+    .block, .block1, .block2, .block3,
+    .block4, .block5, .block6, .block7
+    .block8, .block9 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .block7 {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
